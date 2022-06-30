@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/style/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
         </div>
         <div class="menu">
             <ul>
-                <li class="ativo"><a href="">Home</a></li>
+                <li class="active"><a href="">Home</a></li>
                 <li><a href="">About us</a></li>
                 <li><a href="">Services</a></li>
                 <li><a href="">Our Projects</a></li>
@@ -30,10 +30,45 @@
     </div>
  </header>
  <main>
-
+    <section class="banner">
+        <div class="slider-controls">
+            <div class="slider--control" onclick="goBack()"><span class="span-control">Back</span></div>
+            <div class="slider--control" onclick="goNext()"><span class="span-control">Next</span></div>
+        </div>
+        <div class="sliders">
+            <div class="slider--item1 slider--item">
+                <div class="slider-rgba">
+                    <div class="slider-contents">
+                        <div class="tittle-slider">Design is About <span class="word-color">Communication</span></div>
+                        <div class="number-slider">Call Us: +00 00 1234-6789</div>
+                        <button>Get in Touch!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slider--item2 slider--item">
+                <div class="slider-rgba">
+                    <div class="slider-contents">
+                        <div class="tittle-slider">Created By <span class="word-color">Alexander Bukin</span></div>
+                        <div class="number-slider">Call Us: +00 00 6789-1234</div>
+                        <button>Get in Touch!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slider--item3 slider--item">
+                <div class="slider-rgba">
+                    <div class="slider-contents">
+                        <div class="tittle-slider">Copied By <span class="word-color">Vinicius</span></div>
+                        <div class="number-slider">Call Us: +00 00 9876-5432</div>
+                        <button>Get in Touch!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
  </main>
  <footer>
 
  </footer>
 </body>
+<script src="assets/style/script.js"></script>
 </html>
