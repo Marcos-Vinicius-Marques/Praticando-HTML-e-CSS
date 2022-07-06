@@ -59,58 +59,17 @@ header {
 .banner {
     background-color: #333;
     height: calc( 100vh - 100px);
-    overflow: hidden;
 }
-.sliders {
-    height: 100%;
-    display: flex;
-    transition: all ease 1s;
-}
-.slider--item1 {
+.banner--item1 {
     background-image: url(../../media/foto2.jpg);
     background-size: cover;
     background-position: bottom;
     width: 100vw;
     height: inherit;
 }
-.slider--item2 {
-    background-image: url(../../media/foto4.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    height: inherit;
-}
-.slider--item3 {
-    background-image: url(../../media/foto6.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    height: inherit;
-}
-.slider-controls {
-    position: absolute;
-    z-index: 99;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.slider--control {
-    width: 50px;
-    height: 50px;
-    background-color: #B28756;
-    border-radius: 50%;
-    overflow: hidden;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.span-control {
-    font-weight: 600;
-}
 
-.slider-rgba {
+
+.banner-rgba {
     width: 100%;
     height: 100%;
     background-color: rgba(000, 0, 0, 0.70);
@@ -118,23 +77,23 @@ header {
     align-items: center;
     justify-content: center;
 }
-.slider-contents {
+.banner-contents {
     width: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #fff;
 }
-.slider-contents .tittle-slider {
+.banner-contents .tittle-banner {
     text-transform: uppercase;
     font-size: 60px;
     font-weight: bold;
     text-align: center;
 }
-.slider-contents .tittle-slider .word-color {
+.banner-contents .tittle-banner .word-color {
     color: #B28756;
 }
-.slider-contents .number-slider {
+.banner-contents .number-banner {
     text-transform: uppercase;
     font-weight: 600;
     margin-top: 8px;
@@ -146,7 +105,7 @@ header {
 
 
 
-button {
+.gold-button {
     cursor: pointer;
     background-color: #B28756;
     color: white;
@@ -155,3 +114,5 @@ button {
     padding: 15px 45px 15px 45px;
     border-radius: 30px;
 }
+
+/*Section light*/
