@@ -55,7 +55,7 @@ header {
 
 
 
-
+/* section 1 */
 .banner {
     background-color: #333;
     height: calc( 100vh - 100px);
@@ -136,7 +136,7 @@ p {
     line-height: 22px;
 }
 
-/*Section light*/
+/* section light */
 .area-light {
     background-color: white;
     color: black;
@@ -167,7 +167,7 @@ h4 {
 
 
 
-/* Section Dark */
+/* section Dark */
 .area-dark {
     background-color: #000;
     color: #ffff;
@@ -175,7 +175,7 @@ h4 {
 
 
 
-/*section 2*/
+/* section 2 */
 .content-area2 {
     width: 100%;
     display: flex;
@@ -194,7 +194,7 @@ h4 {
     background-size: cover;
     box-shadow: 3px 3px 20px #777;
 }
-.p-area2 {
+.p-text {
     padding-bottom: 30px;
     padding-right: 20px;
 }
@@ -202,7 +202,7 @@ h4 {
 
 
 
-/* Section 3 */
+/* section 3 */
 .area-services {
     display: flex;
     width: 100%;
@@ -240,7 +240,7 @@ h4 {
 
 
 
-/* Section 4 */
+/* section 4 */
 .area-projects-buttons {
     display: flex;
 }
@@ -374,7 +374,7 @@ h4 {
 
 
 
-/* Section 5 */
+/* section 5 */
 .section5-background {
     background-image: url(../../media/foto6.jpg);
     background-position: center;
@@ -434,4 +434,40 @@ h4 {
 }
 .co-worker .network-area .background-network:hover {
     background-color: #B28756;
+}
+
+
+
+
+/* section 6 */
+.background-section6 {
+    background-color: #ededed;
+}
+.area-client-review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.area-client-review .img-area-clients {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 22px;
+}
+.area-client-review .client-name {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.area-client-review .client-info {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.area-client-review .quotation-marks {
+    margin-bottom: 14px;
+}
+.area-client-review .text-client {
+    text-align: center;
+    color: #777;
 }
