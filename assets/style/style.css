@@ -159,7 +159,7 @@ h1 {
 }
 h4 {
     color: #aeaeae;
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 44px;
     text-transform: uppercase;
     margin-top: 8px;
@@ -230,7 +230,7 @@ h4 {
     margin-bottom: 10px;
     text-align: center;
 }
-.content-services .small-text-services {
+.content-services .small-text {
     color: #777;
     font-size: 13px;
     text-align: center;
@@ -369,4 +369,69 @@ h4 {
 }
 .area-photos .content-picture .picture-text {
     font-size: 14px;
+}
+
+
+
+
+/* Section 5 */
+.section5-background {
+    background-image: url(../../media/foto6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.background-rgba {
+    background-color: rgba(000, 0, 0, 0.80);
+}
+
+.area-co-workers {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 15px;
+    width: 100%;
+}
+.area-co-workers .co-worker {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 40px 44px 40px;
+    background-color: #fff;
+}
+.co-worker .img-co-worker {
+    width: 190px;
+    height: 190px;
+    margin-bottom: 40px;
+}
+.co-worker .co-worker-name {
+    color: #000;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+.co-worker .function-worker {
+    color: #aeaeae;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.co-worker .network-area {
+    display: flex;
+    column-gap: 6px;
+}
+.co-worker .network-area .background-network {
+    background-color: #777;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.co-worker .network-area .active {
+    background-color: #B28756;
+}
+.co-worker .network-area .background-network:hover {
+    background-color: #B28756;
 }
