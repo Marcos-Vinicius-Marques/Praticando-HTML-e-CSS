@@ -467,7 +467,30 @@ h4 {
 .area-client-review .quotation-marks {
     margin-bottom: 14px;
 }
+.area-client-review .area-text {
+    width: 750px;
+}
 .area-client-review .text-client {
     text-align: center;
     color: #777;
+    line-height: 30px;
+}
+
+
+
+/* section 7 */
+.sponsors {
+    display: flex;
+    height: 155px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.area-sponsors {
+    width: 100%;
+    max-width: 1140px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
