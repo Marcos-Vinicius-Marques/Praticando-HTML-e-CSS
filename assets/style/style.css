@@ -647,3 +647,55 @@ hr {
     font-size: 13px;
     text-align: center;
 }
+
+
+
+
+/* section 11 */ 
+.social-network {
+    background-color: #fff;
+}
+.area-network-position {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    column-gap: 40px;
+    padding: 20px 0px 20px 0px;
+    justify-content: center;
+}
+.area-network {
+    display: flex;
+    align-items: center;
+}
+.network-spacing {
+    margin-right: 30px;
+}
+.area-network .content-network {
+    text-transform: uppercase;
+    color: #777;
+}
+.area-network .background-network {
+    width: 36px;
+    height: 36px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+}
+.area-network .twitter {
+    background-color: #35c4f0;
+}
+.area-network .linkedin {
+    background-color: #147bb6;
+}
+.area-network .facebook {
+    background-color: #336296;
+}
+.area-network .googleplus {
+    background-color: #e64236;
+}
+.area-network .pinterest {
+    background-color: #b81c29;
+}
