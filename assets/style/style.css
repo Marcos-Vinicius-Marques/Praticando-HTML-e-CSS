@@ -654,6 +654,7 @@ hr {
 /* section 11 */ 
 .social-network {
     background-color: #fff;
+    border: 1px solid #ccc;
 }
 .area-network-position {
     max-width: 1140px;
@@ -675,6 +676,13 @@ hr {
     text-transform: uppercase;
     color: #777;
 }
+.area-network .spacing-share {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 14px;
+    cursor: pointer;
+}
 .area-network .background-network {
     width: 36px;
     height: 36px;
@@ -683,6 +691,7 @@ hr {
     align-items: center;
     justify-content: center;
     border-radius: 18px;
+    cursor: pointer;
 }
 .area-network .twitter {
     background-color: #35c4f0;
@@ -698,4 +707,58 @@ hr {
 }
 .area-network .pinterest {
     background-color: #b81c29;
+}
+
+
+
+
+/* section 12 */
+.background-form {
+    background-color: #f7f7f7;
+}
+.area-form {
+    width: 545px;
+    margin-top: 70px;
+}
+.form-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form-top {
+    width: 100%;
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 30px;
+}
+.form-contact #first-name, #email, #subject, #message {
+    outline: 0;
+    padding: 12px 0px 12px 0px;
+    border: none;
+    border-bottom: 2px solid #aeaeae;
+    background-color: #f7f7f7;
+}
+.form-contact #first-name {
+    flex: 1;
+}
+.form-contact #email {
+    flex: 1;
+}
+.form-contact #subject {
+    width: 100%;
+    margin-bottom: 70px;
+}
+.form-contact #message {
+    width: 100%;
+}
+.form-contact #button-submit {
+    cursor: pointer;
+    background-color: #B28756;
+    color: white;
+    border: #B28756;
+    font-weight: 600;
+    padding: 15px 45px 15px 45px;
+    margin-top: 50px;
+    border-radius: 30px;
+    text-transform: uppercase;
 }
