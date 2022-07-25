@@ -609,3 +609,41 @@ hr {
     margin-top: 30px;
     margin-bottom: 35px;
 }
+
+
+
+
+/* section 10 */
+.area-facts {
+    display: flex;
+    width: 100%;
+}
+.content-facts {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 35px 0px 35px;
+}
+.content-facts .number-facts {
+    color: #b78c59;
+    font-size: 50px;
+    font-weight: bold;
+}
+.content-facts hr {
+    border: 2px solid #333;
+    width: 22px;
+    margin-bottom: 15px;
+}
+.content-facts .title-facts {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.content-facts .small-text {
+    color: #777;
+    font-size: 13px;
+    text-align: center;
+}
