@@ -123,19 +123,6 @@ header {
 
 
 
-.gold-button {
-    cursor: pointer;
-    background-color: #B28756;
-    color: white;
-    border: #B28756;
-    font-weight: 600;
-    padding: 15px 45px 15px 45px;
-    border-radius: 30px;
-    text-transform: uppercase;
-}
-p {
-    line-height: 22px;
-}
 
 /* section light */
 .area-light {
@@ -164,6 +151,24 @@ h4 {
     margin-bottom: 44px;
     text-transform: uppercase;
     margin-top: 8px;
+}
+.gold-button {
+    cursor: pointer;
+    background-color: #B28756;
+    color: white;
+    border: #B28756;
+    font-weight: 600;
+    padding: 15px 45px 15px 45px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+p {
+    line-height: 22px;
+}
+h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 19px;
 }
 
 
@@ -516,13 +521,8 @@ h4 {
     flex-direction: column;
     padding: 30px 0px 30px 0px;
 }
-.info-pricing h3 {
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 19px;
-    margin-bottom: 15px;
-}
 .info-pricing .price {
+    margin-top: 15px;
     font-weight: bold;
     font-size: 36px;
 }
@@ -559,4 +559,53 @@ hr {
 .info-pricing .button-active {
     background-color: #B28756;
     border: #B28756;
+}
+
+
+
+
+/* section 9 */ 
+.content-premium {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.content-premium .item-premium {
+    display: flex;
+    width: 100%;
+}
+.item-premium .item-img {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+}
+.item-premium .item-content {
+    flex: 5;
+}
+.item-premium .item-content .area-content {
+    display: flex;
+    width: 100%;
+    padding-bottom: 25px;
+}
+.item-premium .item-content .area-content .img-content-premium {
+    width: 35px;
+    height: 30px;
+}
+.item-premium .item-content .area-content .descrition-area {
+    width: 100%;
+    padding: 3px 120px 10px 20px;
+}
+.descrition-text {
+    color: #777;
+    font-size: 13px;
+}
+.content-premium hr {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 40px;
+}
+.content-premium .buttons-slider-premium {
+    margin-top: 30px;
+    margin-bottom: 35px;
 }
