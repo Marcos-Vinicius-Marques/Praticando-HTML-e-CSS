@@ -762,3 +762,172 @@ hr {
     border-radius: 30px;
     text-transform: uppercase;
 }
+
+
+
+
+
+/* footer */
+footer .footer-top {
+    background-image: url(../images/mapa.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #000;
+}
+.footer-top .content-area {
+    padding: 36px 0px 36px 0px;
+    display: flex;
+    align-items: flex-start;
+}
+.footer-contact {
+    background-color: white;
+    padding: 52px 120px 52px 40px;
+}
+.contact--info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.contact--info .background-contact {
+    width: 36px;
+    height: 36px;
+    background-color: #aeaeae;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 18px;
+}
+.contact--info p {
+    font-size: 12px;
+}
+.contact--info:hover .background-contact {
+    background-color: #B28756;
+}
+
+
+
+.footer-botton .area-arrow {
+    width: 66px;
+    height: 66px;
+    background-color: #b78c59;
+    border-radius: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 14px;
+    margin-left: 52px;
+    margin-top: -34px;
+    cursor: pointer;
+}
+.footer-botton .area-arrow .arrow {
+    width: 28px;
+    height: 28px;
+    border-left: 3px solid #fff;
+    border-top: 3px solid #fff;
+    transform: rotate(45deg);
+}
+.footer-botton .content-area {
+    padding: 0px;
+    padding-bottom: 32px;
+    display: flex;
+    column-gap: 26px;
+    flex-direction: row;
+}
+.footer-botton .content-area .footer-network, .footer-text, .footer-subscribe {
+    flex: 1;
+} 
+.content-area .footer-network {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 202px;
+}
+.content-area .footer-network .network-top {
+    display: flex;
+}
+.content-area .footer-network .network-top .network-footer-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    margin-right: 8px;
+    column-gap: 3px;
+    cursor: pointer;
+}
+.content-area .footer-network .network-top .active {
+    background-color: #b78c59;
+}
+.content-area .footer-network .network-top .network-footer-background:hover {
+    background-color: #b78c59;
+}
+.content-area .footer-network .network-top .network-footer-background .point-back {
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+.content-area .footer-network .network-botton {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+
+
+.content-area .footer-text::-webkit-scrollbar {
+    width: 5px;
+}
+.content-area .footer-text::-webkit-scrollbar-thumb {
+    background-color: #b78c59;
+    border-radius: 7px;
+}
+.content-area .footer-text {
+    font-size: 12px;
+    color: #777;
+    height: 202px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-right: 4px;
+}
+
+
+
+.content-area .footer-subscribe {
+    padding: 38px 62px 46px 62px;
+    background-color: #373737;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-area .footer-subscribe form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#email-footer {
+    outline: 0;
+    padding: 12px 0px 12px 0px;
+    border: none;
+    border-bottom: 2px solid #aeaeae;
+    background-color: #373737;
+    width: 220px;
+    text-align: center;
+    color: #aeaeae;
+    margin-bottom: 30px;
+}
+#email-footer::placeholder {
+    color: #aeaeae;
+}
+#submit-footer {
+    cursor: pointer;
+    background-color: #B28756;
+    color: white;
+    border: #B28756;
+    font-weight: 600;
+    padding: 15px 45px 15px 45px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
