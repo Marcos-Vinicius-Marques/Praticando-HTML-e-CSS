@@ -26,6 +26,12 @@ header {
     text-align: center;
     margin-bottom: 11px;
 }
+
+
+.menu-opener {
+    display: none;
+}
+
 .menu ul, .menu li {
     list-style: none;
 }
@@ -41,7 +47,7 @@ header {
 }
 .menu li {
     padding: 0px 9px 35px 9px;
-    border-bottom: 5px solid #000; 
+    border-bottom: 5px solid #000;
 }
 .menu li:hover {
     border-bottom: 5px solid #B28756;
@@ -58,7 +64,7 @@ header {
 /* section 1 */
 .banner {
     background-color: #333;
-    height: calc( 100vh - 100px);
+    height: calc(100vh - 100px);
 }
 .banner--item1 {
     background-image: url(../../media/foto2.jpg);
@@ -357,7 +363,7 @@ h3 {
     background-color: rgba(000, 0, 0, 0.60);
     width: 100%;
     height: 100%;
-    display:none;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -365,7 +371,8 @@ h3 {
     color: #fff;
     padding: 0px 15px 0px 15px;
     cursor: pointer;
-    box-shadow: 3px 3px 20px #777;;
+    box-shadow: 3px 3px 20px #777;
+    ;
 }
 .area-photos .content-picture .picture-title {
     font-weight: 600;
@@ -564,7 +571,7 @@ hr {
 
 
 
-/* section 9 */ 
+/* section 9 */
 .content-premium {
     width: 100%;
     display: flex;
@@ -651,7 +658,7 @@ hr {
 
 
 
-/* section 11 */ 
+/* section 11 */
 .social-network {
     background-color: #fff;
     border: 1px solid #ccc;
@@ -675,6 +682,7 @@ hr {
 .area-network .content-network {
     text-transform: uppercase;
     color: #777;
+    font-weight: bold;
 }
 .area-network .spacing-share {
     display: flex;
@@ -837,7 +845,7 @@ footer .footer-top {
 }
 .footer-botton .content-area .footer-network, .footer-text, .footer-subscribe {
     flex: 1;
-} 
+}
 .content-area .footer-network {
     display: flex;
     flex-direction: column;
@@ -930,4 +938,222 @@ footer .footer-top {
     padding: 15px 45px 15px 45px;
     border-radius: 30px;
     text-transform: uppercase;
+}
+.network-botton-mobile {
+    display: none;
+}
+
+
+
+
+@media (max-width: 1050px) {
+    .menu li a {
+        font-size: 12px;
+    }
+    .area-co-workers {
+        column-gap: 10px;
+    }
+    .area-co-workers .co-worker {
+        padding: 50px 10px 44px 10px
+    }
+}
+
+
+
+@media (max-width: 900px) {
+    .logo {
+        margin-left: 30px;
+    }
+    .menu-opener {
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+    nav {
+        height: calc(100vh - 100px);
+        right: 0;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 50vw;
+        top: 100px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu .active {
+        border-bottom: none;
+    }
+    .menu li {
+        border-bottom: none;
+        padding: 13px 0px 13px 44px;
+    }
+    .menu li a {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .menu li:hover a {
+        color: #B28756;
+    }
+    .menu li:hover {
+        border-bottom: none;
+    }
+    .banner-contents {
+        width: 580px;
+    }
+
+
+    .content-area2 {
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .text-area2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .p-text {
+        text-align: center;
+    }
+    .img-area2 {
+        width: 403px;
+        margin-top: 27px;
+        flex: none;
+    }
+
+
+    .area-services {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+    .content-services {
+        border-left: 1px solid #aeaeae;
+    }
+
+
+    .area-projects-buttons {
+        display: grid;
+        grid-template-columns: 123px 176px 160px;
+    }
+    .area-projects-buttons .button-left {
+        border-bottom-left-radius: 0px;
+    }
+    .area-projects-buttons .button-right-top {
+        border-top-right-radius: 30px;
+    }
+    .area-projects-buttons .button-left-bottom {
+        border-bottom-left-radius: 30px;
+    }
+    .area-projects-buttons .button-right {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 30px;
+    }
+    .projects-button .config-button:hover {
+        border-bottom: none;
+    }
+
+    .area-photos {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 180px);
+    }
+
+
+
+    .area-co-workers .co-woker-none {
+        display: none;
+    }
+
+
+    .area-client-review .area-text {
+        width: 350px;
+    }
+
+
+    .area-sponsors .mobile-none {
+        display: none;
+    }
+
+
+    .area-pricing {
+        display: grid;
+        grid-template-columns: 250px 250px;
+        row-gap: 30px;
+        width: auto;
+    }
+    .content-premium .item-premium {
+        align-items: center;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+
+    .area-facts {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        row-gap: 40px;
+        width: auto;
+    }
+
+
+    .area-network-position {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        row-gap: 20px;
+    }
+    .network-spacing {
+        grid-column: 1/6;
+        margin: auto;
+    }
+    .area-network {
+        flex-direction: column;
+    }
+    .area-network .background-network {
+        margin-right: 0px;
+        margin-bottom: 7px;
+    }
+    .spacing-share img{
+        display: none;
+    }
+
+
+    .footer-botton .content-area {
+        display: grid;
+        row-gap: 35px;
+        padding-right: 30px;
+        grid-template-columns: 100%;
+        padding-left: 30px;
+    }
+    .content-area .footer-network .network-botton {
+        display: none;
+    }
+    .content-area .footer-network {
+        grid-row: 2/3;
+        height: auto;
+    }
+    .content-area .footer-subscribe {
+        grid-row: 1/2;
+    }
+    .content-area .footer-network .network-top {
+        justify-content: center;
+    }
+    .content-area .footer-text {
+        height: auto;
+    }
+    .content-area .footer-text p {
+        text-align: center;
+    }
+    .network-botton-mobile {
+        display: block;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 600px) {
+    
 }

@@ -1,3 +1,17 @@
+function menuOpener() {
+    let nav = document.querySelector("nav")
+
+    if (nav.style.display == "none") {
+        nav.style.display = "block"
+    } else {
+        nav.style.display = "none"
+    }
+}
+
+
+
+
+
 /* Fiz as funções selecionando individualmente cada elemento da Section 4, pois não tem como usar o .addEventListener 
 com o .querySelectorAll para selecionar todos os elementos de uma vez só. */
 

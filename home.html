@@ -15,17 +15,20 @@
             <div class="logoimg">Logo</div>
         </div>
         <div class="menu">
-            <ul>
-                <li class="active"><a href="">Home</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Our Projects</a></li>
-                <li><a href="">Our Team</a></li>
-                <li><a href="">Happy Clients</a></li>
-                <li><a href="">Price</a></li>
-                <li><a href="">Some Facts</a></li>
-                <li><a href="">Contact us</a></li>
-            </ul>
+            <img class="menu-opener" onclick="menuOpener()" src="assets/images/menu.png" />
+            <nav>   
+                <ul>
+                    <li class="active"><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Our Projects</a></li>
+                    <li><a href="">Our Team</a></li>
+                    <li><a href="">Happy Clients</a></li>
+                    <li><a href="">Price</a></li>
+                    <li><a href="">Some Facts</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </nav> 
         </div>
     </div>
  </header>
@@ -106,10 +109,10 @@
                 <div class="projects-button">
                     <div class="config-button active">Photos</div>
                 </div>
-                <div class="projects-button">
+                <div class="projects-button button-right-top">
                     <div class="config-button">Branding</div>
                 </div>
-                <div class="projects-button">
+                <div class="projects-button button-left-bottom">
                     <div class="config-button">Adverts</div>
                 </div>
                 <div class="projects-button">
@@ -260,7 +263,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="co-worker">
+                        <div class="co-worker co-woker-none">
                             <img class="img-co-worker" src="media/mulher2.png">
                             <div class="co-worker-name">Anna Johns</div>
                             <div class="function-worker">Technical lead</div>
@@ -325,12 +328,12 @@
     <!--section 7-->
     <section class="sponsors">
         <div class="area-sponsors">
-            <img class="" src="media/empresa1.png">
-            <img class="" src="media/empresa2.png">
-            <img class="" src="media/empresa3.png">
-            <img class="" src="media/empresa4.png">
-            <img class="" src="media/empresa5.png">
-            <img class="" src="media/empresa6.png">
+            <img src="media/empresa1.png">
+            <img src="media/empresa2.png">
+            <img class="mobile-none" src="media/empresa3.png">
+            <img class="mobile-none" src="media/empresa4.png">
+            <img class="mobile-none" src="media/empresa5.png">
+            <img class="mobile-none" src="media/empresa6.png">
         </div>   
     </section>
     <!--section 8-->
@@ -590,13 +593,16 @@
                 <div class="footer-text">
                     <p>Curabitur fermentum non tortor a aliquam. Ut interdum iaculis sapien, in suscipit ligula commodo nec. Aliquam nec malesuada magna. 
                         Pellentesque sit amet ornare urna. Nam mollis posuere ante et efficitur. Pellentesque in dui dictum, ultrices erat non, maximus libero. Donec eget elit ante. 
-                        Ut vestibulum finibus hendrerit. Donec ante urna, auctor vel rutrum at, volutpat vel diam.</p>
+                        Ut vestibulum finibus hendrerit. Donec ante urna, auctor vel rutrum at, volutpat vel diam.</p>                 
                 </div>
                 <div class="footer-subscribe">
                     <form action="get">
                         <input type="email" name="email" id="email-footer" placeholder="EMAIL TO SUBSCRIBE" required>
                         <input type="submit" value="SUBSCRIBE" id="submit-footer">
                     </form>
+                </div>
+                <div class="network-botton-mobile">
+                    AWAX &copy; 2016
                 </div>
             </div>
         </div> 
