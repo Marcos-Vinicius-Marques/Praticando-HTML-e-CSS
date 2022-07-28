@@ -1154,6 +1154,118 @@ footer .footer-top {
 }
 
 
+
 @media (max-width: 600px) {
+    nav {
+        width: 70vw;
+    }
     
+    .banner-contents {
+        width: 318px;
+    }
+    .banner-contents .tittle-banner {
+        font-size: 30px;
+    }
+    .banner-contents .number-banner {
+        font-size: 15px;
+    }
+    .gold-button {
+        padding: 10px 30px 10px 30px;
+        font-size: 12px;
+    }
+    .img-area2 {
+        width: 277px;
+        height: 190px;
+    }
+    .area-co-workers .co-woker-none2 {
+        display: none;
+    }
+    .area-services {
+        display: flex;
+        flex-direction: column;
+    }
+    .content-services {
+        border: 0px;
+    }
+
+    .area-projects-buttons {
+        grid-template-columns: 100px 100px 100px;
+    }
+    .projects-button .config-button {
+        padding: 22px 3px 14px 3px;
+        font-size: 11px;
+    }
+    .area-photos {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 225px);
+    }
+    .area-photos .picture7, .picture8, .picture9, .picture10, .picture11, .picture12 {
+        display: none;
+    }
+
+    .area-client-review .area-text {
+        width: 300px;
+    }
+
+    .area-pricing {
+        flex-direction: column;
+        display: flex;
+        width: 80%;
+    }
+
+    .item-premium .item-img img {
+        width: 270px;
+    }
+    .item-premium .item-content .area-content .descrition-area {
+        padding: 3px 0px 10px 20px
+    }
+    .item-premium .item-content .area-content {
+        padding-bottom: 0px;
+    }
+
+
+    .area-facts {
+        display: flex;
+        flex-direction: column;
+    }
+    .area-network-position {
+        column-gap: 17px;
+    }
+    h4 {
+        text-align: center;
+    }
+    .area-form {
+        width: 80%;
+        margin-top: 30px;
+    }
+    .form-top {
+        column-gap: 0px;
+        flex-direction: column;
+    }
+    .form-contact #first-name {
+        margin-bottom: 28px;
+    }
+    .form-contact #subject {
+        margin-bottom: 28px;
+    }
+    .footer-contact {
+        padding: 52px 0px 52px 40px;
+    }
+    .contact--info .back-media1 {
+        width: 54px;
+    }
+    .contact--info .back-media2 {
+        width: 46px;
+    }
+
+    .footer-top .content-area {
+        padding: 0px 0px 0px 0px;
+    }
+    .footer-botton .area-arrow {
+        position: absolute;
+    }
+
+    .content-area .footer-subscribe {
+        margin-top: 40px;
+    }
 }
